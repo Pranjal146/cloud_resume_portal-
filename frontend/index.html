@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pranjal | Cloud Resume Portal</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="hero">
+    <h1>Pranjal</h1>
+    <p>MCA Graduate | AWS Cloud & DevOps Learner | Python | Docker | Linux</p>
+    <button onclick="loadResume()">Load Cloud Resume API</button>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <h2>Profile</h2>
+      <p id="profile">Click the button to load profile data from AWS Lambda through API Gateway.</p>
+    </section>
+
+    <section class="card">
+      <h2>Skills</h2>
+      <ul id="skills"></ul>
+    </section>
+
+    <section class="card">
+      <h2>Local Notes</h2>
+      <input id="noteInput" type="text" placeholder="Add a learning note" />
+      <button onclick="saveNote()">Save Note</button>
+      <ul id="notes"></ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>Hosted on Amazon S3 | API by API Gateway + Lambda</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
