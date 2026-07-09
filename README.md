@@ -42,13 +42,13 @@ User → EC2 Public IP → Nginx Port 80 → Node.js Port 3000 → PM2
 
 ### Node.js Application Running on Port 3000
 
-![Cloud Resume Portal running on Node.js port 3000]("C:\Users\Pranjal\Downloads\aws_two_cloud_projects_code\cloud-resume-portal\Screenshot 2026-07-09 213046.png")
+![Cloud Resume Portal running on Node.js port 3000]"C:\Users\Pranjal\Downloads\aws_two_cloud_projects_code\cloud-resume-portal\Screenshot 2026-07-09 213046.png"
 
 The resume portal is deployed on an Amazon Linux EC2 instance. The Node.js application runs on port `3000` and is managed by PM2.
 
 ### Nginx Reverse Proxy Running on Port 80
 
-![Cloud Resume Portal through Nginx reverse proxy]("C:\Users\Pranjal\Downloads\aws_two_cloud_projects_code\cloud-resume-portal\Screenshot 2026-07-09 213111.png")
+![Cloud Resume Portal through Nginx reverse proxy]"C:\Users\Pranjal\Downloads\aws_two_cloud_projects_code\cloud-resume-portal\Screenshot 2026-07-09 213111.png"
 
 Nginx is configured as a reverse proxy on port `80`, allowing the application to be accessed directly through the EC2 public IP address.
 
