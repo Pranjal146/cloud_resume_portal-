@@ -42,7 +42,7 @@ User → EC2 Public IP → Nginx Port 80 → Node.js Port 3000 → PM2
 
 ### Node.js Application Running on Port 3000
 
-![Cloud Resume Portal running on Node.js port 3000]"C:\Users\Pranjal\Downloads\aws_two_cloud_projects_code\cloud-resume-portal\Screenshot 2026-07-09 213046.png"
+![Cloud Resume Portal running on Node.js port 3000]"Screenshot 2026-07-09 213046.png"
 
 The resume portal is deployed on an Amazon Linux EC2 instance. The Node.js application runs on port `3000` and is managed by PM2.
 
